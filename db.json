@@ -4,151 +4,196 @@
       "id": "101",
       "name": "Pizza Hut",
       "imageUrl": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=600&auto=format&fit=crop&q=60",
-      "cloudinaryImageId": "",
       "cuisines": ["Pizzas"],
       "avgRating": 4.1,
       "costForTwo": "₹350 for two",
-      "deliveryTime": 25
+      "deliveryTime": 25,
+      "menu": [
+        { "id": "m1", "name": "Margherita Pizza", "price": 299, "description": "Classic delight with 100% real mozzarella cheese and a tangy tomato base." },
+        { "id": "m2", "name": "Veggie Supreme", "price": 450, "description": "The ultimate veggie feast with mushrooms, onions, bell peppers, and olives." }
+      ]
     },
     {
       "id": "102",
       "name": "Burger King",
       "imageUrl": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=600&auto=format&fit=crop&q=60",
-      "cloudinaryImageId": "",
       "cuisines": ["Burgers", "American"],
       "avgRating": 4.3,
       "costForTwo": "₹200 for two",
-      "deliveryTime": 20
+      "deliveryTime": 20,
+      "menu": [
+        { "id": "m4", "name": "Whopper", "price": 199, "description": "Our signature flame-grilled patty topped with juicy tomatoes, fresh lettuce, and creamy mayo." },
+        { "id": "m5", "name": "French Fries", "price": 99, "description": "Perfectly salted, golden-brown crispy potato strips." }
+      ]
     },
     {
       "id": "103",
       "name": "KFC",
       "imageUrl": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=600&auto=format&fit=crop&q=60",
-      "cloudinaryImageId": "",
       "cuisines": ["Burgers", "Biryani", "American"],
       "avgRating": 4.0,
       "costForTwo": "₹400 for two",
-      "deliveryTime": 30
+      "deliveryTime": 30,
+      "menu": [
+        { "id": "m7", "name": "Hot & Spicy Chicken", "price": 350, "description": "Signature fried chicken seasoned with 11 secret herbs and spices for that perfect kick." },
+        { "id": "m8", "name": "Zinger Burger", "price": 180, "description": "A crunchy chicken fillet burger that brings the heat in every bite." }
+      ]
     },
     {
       "id": "104",
       "name": "McDonald's",
       "imageUrl": "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?w=600&auto=format&fit=crop&q=60",
-      "cloudinaryImageId": "",
       "cuisines": ["Burgers", "Beverages", "Desserts"],
       "avgRating": 4.2,
       "costForTwo": "₹300 for two",
-      "deliveryTime": 18
+      "deliveryTime": 18,
+      "menu": [
+        { "id": "m10", "name": "McAloo Tikki", "price": 60, "description": "A balanced meal with a crispy potato and peas patty served in a toasted bun." },
+        { "id": "m11", "name": "Oreo McFlurry", "price": 115, "description": "Creamy vanilla soft-serve blended with crunchy Oreo cookie pieces." }
+      ]
     },
     {
       "id": "105",
       "name": "Domino's Pizza",
       "imageUrl": "https://images.unsplash.com/photo-1534308983496-4fabb1a015ee?w=600&auto=format&fit=crop&q=60",
-      "cloudinaryImageId": "",
       "cuisines": ["Pizzas", "Italian", "Pastas"],
       "avgRating": 4.5,
       "costForTwo": "₹400 for two",
-      "deliveryTime": 30
+      "deliveryTime": 30,
+      "menu": [
+        { "id": "m13", "name": "Peppy Paneer", "price": 420, "description": "Flavorful paneer, capsicum, and spicy red pepper for a desi twist." },
+        { "id": "m14", "name": "Choco Lava Cake", "price": 109, "description": "Indulgent chocolate cake with a gooey, molten chocolate center." }
+      ]
     },
     {
       "id": "106",
       "name": "Subway",
       "imageUrl": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=600&auto=format&fit=crop&q=60",
-      "cloudinaryImageId": "",
       "cuisines": ["Salads", "Snacks", "Desserts"],
       "avgRating": 4.1,
       "costForTwo": "₹350 for two",
-      "deliveryTime": 22
+      "deliveryTime": 22,
+      "menu": [
+        { "id": "m16", "name": "Paneer Tikka Sub", "price": 210, "description": "Roasted paneer tikka marinated in Indian spices, served in your choice of bread." },
+        { "id": "m17", "name": "Chocolate Chip Cookie", "price": 50, "description": "The classic Subway snack—soft, chewy, and loaded with chocolate chips." }
+      ]
     },
     {
       "id": "107",
       "name": "Starbucks Coffee",
       "imageUrl": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=600&auto=format&fit=crop&q=60",
-      "cloudinaryImageId": "",
       "cuisines": ["Beverages", "Cafe", "Desserts"],
       "avgRating": 4.4,
       "costForTwo": "₹600 for two",
-      "deliveryTime": 28
+      "deliveryTime": 28,
+      "menu": [
+        { "id": "m19", "name": "Java Chip Frappuccino", "price": 345, "description": "A perfect blend of mocha sauce, chocolate chips, and fresh coffee topped with whipped cream." },
+        { "id": "m20", "name": "Butter Croissant", "price": 190, "description": "Flaky, buttery, and golden-brown—the ultimate coffee companion." }
+      ]
     },
     {
       "id": "108",
       "name": "Biryani By Kilo",
       "imageUrl": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=600&auto=format&fit=crop&q=60",
-      "cloudinaryImageId": "",
       "cuisines": ["Biryani", "Hyderabadi", "North Indian"],
       "avgRating": 4.3,
       "costForTwo": "₹500 for two",
-      "deliveryTime": 45
+      "deliveryTime": 45,
+      "menu": [
+        { "id": "m22", "name": "Hyderabadi Chicken Biryani", "price": 450, "description": "Slow-cooked authentic Dum Biryani with succulent chicken and aromatic basmati rice." },
+        { "id": "m23", "name": "Lucknowi Veg Biryani", "price": 380, "description": "A fragrant and subtle vegetable biryani, cooked the traditional Lucknowi way." }
+      ]
     },
     {
       "id": "109",
       "name": "Wow! Momo",
       "imageUrl": "https://images.unsplash.com/photo-1625220194771-7ebdea0b70b9?w=600&auto=format&fit=crop&q=60",
-      "cloudinaryImageId": "",
       "cuisines": ["Tibetan", "Healthy Food", "Asian"],
       "avgRating": 3.9,
       "costForTwo": "₹300 for two",
-      "deliveryTime": 25
+      "deliveryTime": 25,
+      "menu": [
+        { "id": "m24", "name": "Steamed Veg Momos", "price": 140, "description": "Fresh vegetables wrapped in thin dough, steamed to perfection and served with spicy chutney." },
+        { "id": "m25", "name": "Chicken Pan Fried Momo", "price": 180, "description": "Momos tossed in a spicy Schezwan sauce with a crispy pan-fried bottom." }
+      ]
     },
     {
       "id": "110",
       "name": "Baskin Robbins",
       "imageUrl": "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?w=600&auto=format&fit=crop&q=60",
-      "cloudinaryImageId": "",
       "cuisines": ["Ice Cream", "Desserts"],
       "avgRating": 4.6,
       "costForTwo": "₹250 for two",
-      "deliveryTime": 15
+      "deliveryTime": 15,
+      "menu": [
+        { "id": "m26", "name": "Mississippi Mud", "price": 120, "description": "A chocolate lover's dream with chocolate fudge and brownie pieces." },
+        { "id": "m27", "name": "Cotton Candy Scoop", "price": 95, "description": "Colorful, whimsical, and tastes just like the carnival." }
+      ]
     },
     {
       "id": "111",
       "name": "Behrouz Biryani",
       "imageUrl": "https://images.unsplash.com/photo-1633945274405-b6c8069047b0?w=600&auto=format&fit=crop&q=60",
-      "cloudinaryImageId": "",
       "cuisines": ["Biryani", "Mughlai", "Lucknowi"],
       "avgRating": 4.4,
       "costForTwo": "₹550 for two",
-      "deliveryTime": 35
+      "deliveryTime": 35,
+      "menu": [
+        { "id": "m28", "name": "Dum Gosht Biryani", "price": 550, "description": "Royal mutton biryani cooked with secret spices fit for a king." },
+        { "id": "m29", "name": "Zaikedaar Paneer Biryani", "price": 425, "description": "Rich paneer cubes and fragrant rice, a vegetarian royal treat." }
+      ]
     },
     {
       "id": "112",
       "name": "Faasos - Wraps & Rolls",
       "imageUrl": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600&auto=format&fit=crop&q=60",
-      "cloudinaryImageId": "",
       "cuisines": ["Fast Food", "North Indian", "Street Food"],
       "avgRating": 4.2,
       "costForTwo": "₹200 for two",
-      "deliveryTime": 25
+      "deliveryTime": 25,
+      "menu": [
+        { "id": "m30", "name": "Paneer Tikka Wrap", "price": 175, "description": "Spiced paneer chunks wrapped in a soft paratha with mint chutney and onions." },
+        { "id": "m31", "name": "Chicken Bhuna Wrap", "price": 199, "description": "Roasted chicken cooked in a rich onion-tomato gravy, rolled in a wrap." }
+      ]
     },
     {
       "id": "113",
       "name": "The Belgian Waffle Co.",
       "imageUrl": "https://images.unsplash.com/photo-1562376552-0d160a2f238d?w=600&auto=format&fit=crop&q=60",
-      "cloudinaryImageId": "",
       "cuisines": ["Waffle", "Desserts", "Beverages"],
       "avgRating": 4.5,
       "costForTwo": "₹200 for two",
-      "deliveryTime": 20
+      "deliveryTime": 20,
+      "menu": [
+        { "id": "m32", "name": "Belgian Milk Chocolate", "price": 160, "description": "Freshly baked warm waffle with a generous layer of Belgian milk chocolate." },
+        { "id": "m33", "name": "Naked Nutella", "price": 185, "description": "Crispy waffle smothered in creamy Nutella spread." }
+      ]
     },
     {
       "id": "114",
       "name": "Oven Story Pizza",
       "imageUrl": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=600&auto=format&fit=crop&q=60",
-      "cloudinaryImageId": "",
       "cuisines": ["Pizzas", "Italian"],
       "avgRating": 4.1,
       "costForTwo": "₹450 for two",
-      "deliveryTime": 32
+      "deliveryTime": 32,
+      "menu": [
+        { "id": "m34", "name": "Picante Pizza", "price": 450, "description": "A spicy treat with peri-peri chillies and a unique four-cheese base." },
+        { "id": "m35", "name": "El Clasico Chicken", "price": 499, "description": "Classic chicken pizza topped with herbs and a signature cheese blend." }
+      ]
     },
     {
       "id": "115",
       "name": "Kwality Walls Frozen Dessert",
       "imageUrl": "https://images.unsplash.com/photo-1501443762994-82bd5dace89a?w=600&auto=format&fit=crop&q=60",
-      "cloudinaryImageId": "",
       "cuisines": ["Ice Cream", "Desserts"],
       "avgRating": 4.7,
       "costForTwo": "₹150 for two",
-      "deliveryTime": 15
+      "deliveryTime": 15,
+      "menu": [
+        { "id": "m36", "name": "Cornetto Choco Vanilla", "price": 40, "description": "The iconic crispy cone filled with creamy vanilla and chocolate ripples." },
+        { "id": "m37", "name": "Magnum Almond", "price": 99, "description": "Premium vanilla ice cream dipped in thick cracking Belgian chocolate and almonds." }
+      ]
     }
   ]
 }
