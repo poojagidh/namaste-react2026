@@ -4,9 +4,7 @@
       "id": "101",
       "name": "Pizza Hut",
       "imageUrl": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=600&auto=format&fit=crop&q=60",
-      "cuisines": [
-        "Pizzas"
-      ],
+      "cuisines": ["Pizzas"],
       "avgRating": 4.1,
       "costForTwo": "₹350 for two",
       "deliveryTime": 25,
@@ -30,10 +28,7 @@
       "id": "102",
       "name": "Burger King",
       "imageUrl": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=600&auto=format&fit=crop&q=60",
-      "cuisines": [
-        "Burgers",
-        "American"
-      ],
+      "cuisines": ["Burgers", "American"],
       "avgRating": 4.3,
       "costForTwo": "₹200 for two",
       "deliveryTime": 20,
@@ -56,11 +51,7 @@
       "id": "103",
       "name": "KFC",
       "imageUrl": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=600&auto=format&fit=crop&q=60",
-      "cuisines": [
-        "Burgers",
-        "Biryani",
-        "American"
-      ],
+      "cuisines": ["Burgers", "Biryani", "American"],
       "avgRating": 4,
       "costForTwo": "₹400 for two",
       "deliveryTime": 30,
@@ -83,11 +74,7 @@
       "id": "104",
       "name": "McDonald's",
       "imageUrl": "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?w=600&auto=format&fit=crop&q=60",
-      "cuisines": [
-        "Burgers",
-        "Beverages",
-        "Desserts"
-      ],
+      "cuisines": ["Burgers", "Beverages", "Desserts"],
       "avgRating": 4.2,
       "costForTwo": "₹300 for two",
       "deliveryTime": 18,
@@ -110,11 +97,7 @@
       "id": "105",
       "name": "Domino's Pizza",
       "imageUrl": "https://images.unsplash.com/photo-1534308983496-4fabb1a015ee?w=600&auto=format&fit=crop&q=60",
-      "cuisines": [
-        "Pizzas",
-        "Italian",
-        "Pastas"
-      ],
+      "cuisines": ["Pizzas", "Italian", "Pastas"],
       "avgRating": 4.5,
       "costForTwo": "₹400 for two",
       "deliveryTime": 30,
@@ -138,11 +121,7 @@
       "id": "106",
       "name": "Subway",
       "imageUrl": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=600&auto=format&fit=crop&q=60",
-      "cuisines": [
-        "Salads",
-        "Snacks",
-        "Desserts"
-      ],
+      "cuisines": ["Salads", "Snacks", "Desserts"],
       "avgRating": 4.1,
       "costForTwo": "₹350 for two",
       "deliveryTime": 22,
@@ -165,11 +144,7 @@
       "id": "107",
       "name": "Starbucks Coffee",
       "imageUrl": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=600&auto=format&fit=crop&q=60",
-      "cuisines": [
-        "Beverages",
-        "Cafe",
-        "Desserts"
-      ],
+      "cuisines": ["Beverages", "Cafe", "Desserts"],
       "avgRating": 4.4,
       "costForTwo": "₹600 for two",
       "deliveryTime": 28,
@@ -192,11 +167,7 @@
       "id": "108",
       "name": "Biryani By Kilo",
       "imageUrl": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=600&auto=format&fit=crop&q=60",
-      "cuisines": [
-        "Biryani",
-        "Hyderabadi",
-        "North Indian"
-      ],
+      "cuisines": ["Biryani", "Hyderabadi", "North Indian"],
       "avgRating": 4.3,
       "costForTwo": "₹500 for two",
       "deliveryTime": 45,
@@ -219,11 +190,7 @@
       "id": "109",
       "name": "Wow! Momo",
       "imageUrl": "https://images.unsplash.com/photo-1625220194771-7ebdea0b70b9?w=600&auto=format&fit=crop&q=60",
-      "cuisines": [
-        "Tibetan",
-        "Healthy Food",
-        "Asian"
-      ],
+      "cuisines": ["Tibetan", "Healthy Food", "Asian"],
       "avgRating": 3.9,
       "costForTwo": "₹300 for two",
       "deliveryTime": 25,
@@ -246,10 +213,7 @@
       "id": "110",
       "name": "Baskin Robbins",
       "imageUrl": "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?w=600&auto=format&fit=crop&q=60",
-      "cuisines": [
-        "Ice Cream",
-        "Desserts"
-      ],
+      "cuisines": ["Ice Cream", "Desserts"],
       "avgRating": 4.6,
       "costForTwo": "₹250 for two",
       "deliveryTime": 15,
@@ -272,11 +236,7 @@
       "id": "111",
       "name": "Behrouz Biryani",
       "imageUrl": "https://images.unsplash.com/photo-1633945274405-b6c8069047b0?w=600&auto=format&fit=crop&q=60",
-      "cuisines": [
-        "Biryani",
-        "Mughlai",
-        "Lucknowi"
-      ],
+      "cuisines": ["Biryani", "Mughlai", "Lucknowi"],
       "avgRating": 4.4,
       "costForTwo": "₹550 for two",
       "deliveryTime": 35,
@@ -299,11 +259,7 @@
       "id": "112",
       "name": "Faasos - Wraps & Rolls",
       "imageUrl": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600&auto=format&fit=crop&q=60",
-      "cuisines": [
-        "Fast Food",
-        "North Indian",
-        "Street Food"
-      ],
+      "cuisines": ["Fast Food", "North Indian", "Street Food"],
       "avgRating": 4.2,
       "costForTwo": "₹200 for two",
       "deliveryTime": 25,
@@ -326,11 +282,7 @@
       "id": "113",
       "name": "The Belgian Waffle Co.",
       "imageUrl": "https://images.unsplash.com/photo-1562376552-0d160a2f238d?w=600&auto=format&fit=crop&q=60",
-      "cuisines": [
-        "Waffle",
-        "Desserts",
-        "Beverages"
-      ],
+      "cuisines": ["Waffle", "Desserts", "Beverages"],
       "avgRating": 4.5,
       "costForTwo": "₹200 for two",
       "deliveryTime": 20,
@@ -353,10 +305,7 @@
       "id": "114",
       "name": "Oven Story Pizza",
       "imageUrl": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=600&auto=format&fit=crop&q=60",
-      "cuisines": [
-        "Pizzas",
-        "Italian"
-      ],
+      "cuisines": ["Pizzas", "Italian"],
       "avgRating": 4.1,
       "costForTwo": "₹450 for two",
       "deliveryTime": 32,
@@ -379,10 +328,7 @@
       "id": "115",
       "name": "Kwality Walls Frozen Dessert",
       "imageUrl": "https://images.unsplash.com/photo-1501443762994-82bd5dace89a?w=600&auto=format&fit=crop&q=60",
-      "cuisines": [
-        "Ice Cream",
-        "Desserts"
-      ],
+      "cuisines": ["Ice Cream", "Desserts"],
       "avgRating": 4.7,
       "costForTwo": "₹150 for two",
       "deliveryTime": 15,
