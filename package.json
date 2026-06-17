@@ -1,0 +1,49 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "React project 2026",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest",
+    "watch-test": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/poojagidh/namaste-react2026.git"
+  },
+  "keywords": [
+    "react",
+    "react",
+    "project",
+    "pooja",
+    "gidh"
+  ],
+  "author": "Pooja Gidh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/poojagidh/namaste-react2026/issues"
+  },
+  "homepage": "https://github.com/poojagidh/namaste-react2026#readme",
+  "devDependencies": {
+    "@babel/core": "^7.29.7",
+    "@babel/preset-env": "^7.29.7",
+    "@babel/preset-react": "^7.28.5",
+    "@testing-library/dom": "^10.4.1",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
+    "babel-jest": "^30.4.1",
+    "jest": "^30.2.0",
+    "jest-environment-jsdom": "^30.4.1",
+    "parcel": "^2.16.3"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.11.2",
+    "@tailwindcss/postcss": "^4.1.18",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^6.30.3",
+    "tailwindcss": "^4.1.18"
+  }
+}

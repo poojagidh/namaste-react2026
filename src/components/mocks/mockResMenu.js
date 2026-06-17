@@ -1,0 +1,195 @@
+export default {
+    restaurants: [
+        {
+            id: "101",
+            name: "Pizza Hut",
+            imageUrl: "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=600&auto=format&fit=crop&q=60",
+            cuisines: ["Pizzas"],
+            avgRating: 4.1,
+            costForTwo: "₹350 for two",
+            deliveryTime: 25,
+            promoted: true,
+            menu: [
+                {
+                    categoryName: "Recommended",
+                    items: [
+                        { "id": "m1", "name": "Margherita Pizza", "price": 299, "isVeg": true, "isBestSeller": true },
+                        { "id": "m2", "name": "Veggie Supreme", "price": 450, "isVeg": true }
+                    ]
+                },
+                {
+                    "categoryName": "Beverages",
+                    "items": [
+                        { "id": "m3", "name": "Pepsi 500ml", "price": 60, "isVeg": true }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "102",
+            "name": "Burger King",
+            "imageUrl": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=600&auto=format&fit=crop&q=60",
+            "cuisines": ["Burgers"],
+            "avgRating": 4.3,
+            "costForTwo": "₹200 for two",
+            "deliveryTime": 20,
+            "menu": [
+                {
+                    "categoryName": "Recommended",
+                    "items": [
+                        { "id": "m4", "name": "Whopper", "price": 199, "isVeg": false, "isBestSeller": true }
+                    ]
+                },
+                {
+                    "categoryName": "Sides",
+                    "items": [
+                        { "id": "m5", "name": "French Fries", "price": 99, "isVeg": true }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "103",
+            "name": "KFC",
+            "imageUrl": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=600&auto=format&fit=crop&q=60",
+            "cuisines": ["Burgers", "Biryani"],
+            "avgRating": 4.0,
+            "costForTwo": "₹400 for two",
+            "deliveryTime": 30,
+            "menu": [
+                {
+                    "categoryName": "Recommended",
+                    "items": [
+                        { "id": "m7", "name": "Hot & Spicy Chicken", "price": 350, "isVeg": false }
+                    ]
+                },
+                {
+                    "categoryName": "Burgers",
+                    "items": [
+                        { "id": "m8", "name": "Zinger Burger", "price": 180, "isVeg": false }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "104",
+            "name": "McDonald's",
+            "imageUrl": "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?w=600&auto=format&fit=crop&q=60",
+            "cuisines": ["Burgers"],
+            "avgRating": 4.2,
+            "costForTwo": "₹300 for two",
+            "deliveryTime": 18,
+            "menu": [{ "categoryName": "Recommended", "items": [{ "id": "m10", "name": "McAloo Tikki", "price": 60, "isVeg": true }] }]
+        },
+        {
+            "id": "105",
+            "name": "Domino's Pizza",
+            "imageUrl": "https://images.unsplash.com/photo-1534308983496-4fabb1a015ee?w=600&auto=format&fit=crop&q=60",
+            "cuisines": ["Pizzas"],
+            "avgRating": 4.5,
+            "costForTwo": "₹400 for two",
+            "deliveryTime": 30,
+            "menu": [{ "categoryName": "Recommended", "items": [{ "id": "m13", "name": "Peppy Paneer", "price": 420, "isVeg": true }] }]
+        },
+        {
+            "id": "106",
+            "name": "Subway",
+            "imageUrl": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=600&auto=format&fit=crop&q=60",
+            "cuisines": ["Salads"],
+            "avgRating": 4.1,
+            "costForTwo": "₹350 for two",
+            "deliveryTime": 22,
+            "menu": [{ "categoryName": "Recommended", "items": [{ "id": "m16", "name": "Paneer Tikka Sub", "price": 210, "isVeg": true }] }]
+        },
+        {
+            "id": "107",
+            "name": "Starbucks Coffee",
+            "imageUrl": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=600&auto=format&fit=crop&q=60",
+            "cuisines": ["Beverages"],
+            "avgRating": 4.4,
+            "costForTwo": "₹600 for two",
+            "deliveryTime": 28,
+            "menu": [{ "categoryName": "Recommended", "items": [{ "id": "m19", "name": "Java Chip", "price": 345, "isVeg": true }] }]
+        },
+        {
+            "id": "108",
+            "name": "Biryani By Kilo",
+            "imageUrl": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=600&auto=format&fit=crop&q=60",
+            "cuisines": ["Biryani"],
+            "avgRating": 4.3,
+            "costForTwo": "₹500 for two",
+            "deliveryTime": 45,
+            "menu": [{ "categoryName": "Recommended", "items": [{ "id": "m22", "name": "Chicken Biryani", "price": 450, "isVeg": false }] }]
+        },
+        {
+            "id": "109",
+            "name": "Wow! Momo",
+            "imageUrl": "https://images.unsplash.com/photo-1625220194771-7ebdea0b70b9?w=600&auto=format&fit=crop&q=60",
+            "cuisines": ["Asian"],
+            "avgRating": 3.9,
+            "costForTwo": "₹300 for two",
+            "deliveryTime": 25,
+            "menu": [{ "categoryName": "Recommended", "items": [{ "id": "m24", "name": "Veg Momos", "price": 140, "isVeg": true }] }]
+        },
+        {
+            "id": "110",
+            "name": "Baskin Robbins",
+            "imageUrl": "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?w=600&auto=format&fit=crop&q=60",
+            "cuisines": ["Desserts"],
+            "avgRating": 4.6,
+            "costForTwo": "₹250 for two",
+            "deliveryTime": 15,
+            "menu": [{ "categoryName": "Recommended", "items": [{ "id": "m26", "name": "Mississippi Mud", "price": 120, "isVeg": true }] }]
+        },
+        {
+            "id": "111",
+            "name": "Behrouz Biryani",
+            "imageUrl": "https://images.unsplash.com/photo-1633945274405-b6c8069047b0?w=600&auto=format&fit=crop&q=60",
+            "cuisines": ["Biryani"],
+            "avgRating": 4.4,
+            "costForTwo": "₹550 for two",
+            "deliveryTime": 35,
+            "menu": [{ "categoryName": "Recommended", "items": [{ "id": "m28", "name": "Dum Gosht", "price": 550, "isVeg": false }] }]
+        },
+        {
+            "id": "112",
+            "name": "Faasos - Wraps & Rolls",
+            "imageUrl": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600&auto=format&fit=crop&q=60",
+            "cuisines": ["Fast Food"],
+            "avgRating": 4.2,
+            "costForTwo": "₹200 for two",
+            "deliveryTime": 25,
+            "menu": [{ "categoryName": "Recommended", "items": [{ "id": "m30", "name": "Paneer Wrap", "price": 175, "isVeg": true }] }]
+        },
+        {
+            "id": "113",
+            "name": "The Belgian Waffle Co.",
+            "imageUrl": "https://images.unsplash.com/photo-1562376552-0d160a2f238d?w=600&auto=format&fit=crop&q=60",
+            "cuisines": ["Desserts"],
+            "avgRating": 4.5,
+            "costForTwo": "₹200 for two",
+            "deliveryTime": 20,
+            "menu": [{ "categoryName": "Recommended", "items": [{ "id": "m32", "name": "Milk Chocolate", "price": 160, "isVeg": true }] }]
+        },
+        {
+            "id": "114",
+            "name": "Oven Story Pizza",
+            "imageUrl": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=600&auto=format&fit=crop&q=60",
+            "cuisines": ["Pizzas"],
+            "avgRating": 4.1,
+            "costForTwo": "₹450 for two",
+            "deliveryTime": 32,
+            "menu": [{ "categoryName": "Recommended", "items": [{ "id": "m34", "name": "Picante Pizza", "price": 450, "isVeg": true }] }]
+        },
+        {
+            "id": "115",
+            "name": "Kwality Walls Frozen Dessert",
+            "imageUrl": "https://images.unsplash.com/photo-1501443762994-82bd5dace89a?w=600&auto=format&fit=crop&q=60",
+            "cuisines": ["Desserts"],
+            "avgRating": 4.7,
+            "costForTwo": "₹150 for two",
+            "deliveryTime": 15,
+            "menu": [{ "categoryName": "Recommended", "items": [{ "id": "m36", "name": "Cornetto", "price": 40, "isVeg": true }] }]
+        }
+    ]
+}

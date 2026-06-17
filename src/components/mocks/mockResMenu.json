@@ -1,0 +1,25 @@
+{
+  "id": "101",
+  "name": "Pizza Hut",
+  "imageUrl": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=600&auto=format&fit=crop&q=60",
+  "cuisines": ["Pizzas"],
+  "avgRating": 4.1,
+  "costForTwo": "₹350 for two",
+  "deliveryTime": 25,
+  "promoted": true,
+  "menu": [
+    {
+      "categoryName": "Recommended",
+      "items": [
+        { "id": "m1", "name": "Margherita Pizza", "price": 299, "isVeg": true, "isBestSeller": true },
+        { "id": "m2", "name": "Veggie Supreme", "price": 450, "isVeg": true }
+      ]
+    },
+    {
+      "categoryName": "Beverages",
+      "items": [
+        { "id": "m3", "name": "Pepsi 500ml", "price": 60, "isVeg": true }
+      ]
+    }
+  ]
+}
